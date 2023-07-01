@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-family: 'Roboto';
 }
 
 body {
@@ -11,18 +12,33 @@ body {
   background-attachment: fixed;
 }
 
+/* HEADER SECTION */
+.header {
+  max-width: 700px;
+  margin: 0 auto;
+  border: 5px solid red;
+  text-align: center;
+}
+
+hr {
+  width: 50%;
+}
+
 /* MAIN SECTION */
-q {
+q,
+address {
   color: #eea827;
+  font-weight: bold;
 }
 
 p {
+  font-weight: normal;
   display: inline-block;
   color: #fff;
   margin: 0;
 }
 
 address {
+  font-style: normal;
   display: inline-block;
-  color: #eea827;
 }
