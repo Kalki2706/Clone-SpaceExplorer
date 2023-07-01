@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* MAIN SECTION */
+q {
+  color: #f00;
+}
+
+p {
+  display: inline-block;
+  color: #000;
+}
+
+address {
+  display: inline-block;
+}
