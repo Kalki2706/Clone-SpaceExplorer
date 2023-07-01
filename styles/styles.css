@@ -4,18 +4,25 @@ html {
 
 body {
   margin: 0;
+  color: #fff;
+  background-image: url(../img/space.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /* MAIN SECTION */
 q {
-  color: #f00;
+  color: #eea827;
 }
 
 p {
   display: inline-block;
-  color: #000;
+  color: #fff;
+  margin: 0;
 }
 
 address {
   display: inline-block;
+  color: #eea827;
 }
