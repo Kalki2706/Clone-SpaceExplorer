@@ -17,12 +17,33 @@ body {
 .header-section {
   max-width: 700px;
   margin: 80px auto;
+  padding: 50px;
   border: 5px solid red;
   text-align: center;
 }
 
+h1 {
+  font-size: 32px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
 hr {
   width: 50%;
+  height: 0.2px;
+  background: linear-gradient(to right, red, yellow);
+  height: 5px;
+  border: none;
+  border-radius: 2px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.buttons {
+  margin-bottom: 10px;
 }
 
 /* MAIN SECTION */
