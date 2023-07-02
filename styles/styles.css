@@ -101,7 +101,7 @@ button {
 q,
 address {
   color: #eea827;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 25px;
 }
 
@@ -124,4 +124,28 @@ address {
 /* FOOTER SECTION */
 footer p {
   text-align: center;
+  font-weight: 300;
+}
+
+/* LINK STYLING */
+.copyright-holder {
+  color: #fff;
+  transition: color 0.2s;
+}
+
+/* LVHA */
+.copyright-holder:link {
+  color: #fff;
+}
+
+.copyright-holder:visited {
+  color: #07b1ff;
+}
+
+.copyright-holder:hover {
+  color: #eea827;
+}
+
+.copyright-holder:active {
+  color: #ff8800;
 }
