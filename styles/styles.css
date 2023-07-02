@@ -22,6 +22,13 @@ body::-webkit-scrollbar {
   background: transparent; /* Disable scrollbar Chrome/Safari/Webkit */
 }
 
+/* COMBINE SELECTORS WITH SAME PROPERTY */
+span,
+button,
+.copyright-holder {
+  color: #fff;
+}
+
 /* HEADER SECTION */
 .header-section {
   max-width: 700px;
@@ -61,11 +68,16 @@ button {
   font-size: 16px;
   border-radius: 2px;
   border: 1px solid #fff;
-  color: #fff;
   cursor: pointer;
   background-color: transparent;
   backdrop-filter: blur(5px) brightness(80%);
   font-weight: 500;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #000;
 }
 
 .buttons {
@@ -106,10 +118,6 @@ address {
   color: #eea827;
 }
 
-span {
-  color: #fff;
-}
-
 address {
   font-style: normal;
   display: inline-block;
@@ -129,8 +137,7 @@ footer p {
 
 /* LINK STYLING */
 .copyright-holder {
-  color: #fff;
-  transition: color 0.2s;
+  transition: color 0.15s;
 }
 
 /* LVHA */
